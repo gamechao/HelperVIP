@@ -1,4 +1,4 @@
-# HelperVIP · 音游与自动钓鱼助手
+# BD2游戏助手
 
 本仓库仅分发**二进制程序与使用说明，不公开应用源码**，不是开源项目。仅供学习、研究和技术交流使用。
 
@@ -6,7 +6,7 @@
 - [查看 Release](https://github.com/gamechao/HelperVIP/releases/tag/v1.2.19) · [SHA-256校验和](https://github.com/gamechao/HelperVIP/releases/download/v1.2.19/SHA256SUMS.txt)
 - [二进制使用许可](LICENSE.txt) · [免责声明](DISCLAIMER.md) · [第三方声明](THIRD_PARTY_NOTICES.md) · [隐私与数据](PRIVACY.md)
 
-在《棕色尘埃2 / BrownDust II》中，通过游戏内面板使用**节奏自动演奏、连续钓鱼和鱼类背包整理**。
+面向《棕色尘埃2 / BrownDust II》的综合游戏助手，集成**资源导出、节奏自动演奏、连续钓鱼和鱼类背包整理**，后续将继续扩展其他功能。
 
 **当前版本：1.2.19** · Windows PC 客户端 · `F10` 打开面板 · `F12` 停止任务
 
@@ -246,14 +246,3 @@
 
 </details>
 
-<details>
-<summary><strong>✅ 已验证的完整流程</strong></summary>
-
-以下是当前客户端上的实测记录，不代表未来客户端或所有运行环境均已验证。
-
-- **实际400格满包后台整理**：400条鱼出售342条，剩余58条；正常翻页反选，出售确认一次。
-- **保护核验**：18条传说鱼、42条锁定鱼和应保留的 MAX / MIN 鱼完整，实际删除 ID 与计划完全一致。
-- **整理后续钓**：后台关包、抛竿、搏鱼并收鱼1条，库存达到59条。
-- **中断恢复**：一轮任务经历3次执行器中断后仍能续钓；最终手动停止时累计收鱼9条。
-
-</details>
