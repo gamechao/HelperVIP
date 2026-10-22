@@ -14,13 +14,15 @@
 
 本仓库仅分发**二进制程序与使用说明，不公开应用源码**，不是开源项目。仅供学习、研究和技术交流使用。
 
-- **[下载 HelperVIP v1.2.19（Windows x64）](https://github.com/gamechao/HelperVIP/releases/download/v1.2.19/HelperVIP-v1.2.19-win-x64.zip)**
-- [查看 Release](https://github.com/gamechao/HelperVIP/releases/tag/v1.2.19) · [SHA-256校验和](https://github.com/gamechao/HelperVIP/releases/download/v1.2.19/SHA256SUMS.txt)
+- **[下载 HelperVIP v1.2.21（Windows x64）](https://github.com/gamechao/HelperVIP/releases/download/v1.2.21/HelperVIP-v1.2.21-win-x64.zip)**
+- [查看 Release](https://github.com/gamechao/HelperVIP/releases/tag/v1.2.21) · [SHA-256校验和](https://github.com/gamechao/HelperVIP/releases/download/v1.2.21/SHA256SUMS.txt)
 - [二进制使用许可](LICENSE.txt) · [免责声明](DISCLAIMER.md) · [第三方声明](THIRD_PARTY_NOTICES.md) · [隐私与数据](PRIVACY.md)
 
 面向《棕色尘埃2 / BrownDust II》的综合游戏助手，集成**资源导出、节奏自动演奏、连续钓鱼和鱼类背包整理**，后续将继续扩展其他功能。
 
-**当前版本：1.2.19** · Windows PC 客户端 · `F10` 打开面板 · `F12` 停止任务
+**当前版本：1.2.21** · Windows PC 客户端 · `F10` 打开面板 · `F12` 停止任务
+
+本版适配 2026-10-22 本机更新后的客户端，更新音游观察器、钓鱼状态、鱼类库存与界面门禁映射，保留版本校验和出售保护。升级时请同步替换插件、观察器和完整 Worker，避免新旧版本混用。
 
 > 点击下面的功能标题即可展开或收起。首次使用建议先运行 1 局音游或抛竿 1 次，确认后再开启连续运行。
 
@@ -56,6 +58,7 @@
       └─ Worker/                  ← 保留完整执行器目录
 ```
 
+发布包也提供 `Install-Dependencies.ps1` 安装脚本。它会保留已有文件；若检测到同名文件内容不同，会停止并提示，**不能作为直接覆盖旧版的升级脚本**。
 
 ### 更新
 
@@ -290,4 +293,6 @@ BepInEx/HelperVIP/exports/<批次>/<资源ID>/
 音游报告另见 `BepInEx/HelperVIP/Worker/reports/`。整理记录包含计划、操作、售后核验和完成结果；分享前请检查日志中是否带有需要隐藏的本机路径等信息。
 
 </details>
+
+
 
